@@ -1,0 +1,22 @@
+@import './variables';
+
+body {
+  background: $black;
+  color: $white;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+
+  &:before {
+    content: '';
+    background: url('../images/icon.png') no-repeat;
+    background-size: 100%;
+    display: block;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+  }
+}

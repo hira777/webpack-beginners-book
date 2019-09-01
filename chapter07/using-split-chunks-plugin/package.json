@@ -1,0 +1,15 @@
+{
+  "name": "using-split-chunks-plugin",
+  "scripts": {
+    "build": "webpack",
+    "build:big": "webpack --config webpack.not-optimized.config.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "lodash-es": "^4.17.15"
+  }
+}

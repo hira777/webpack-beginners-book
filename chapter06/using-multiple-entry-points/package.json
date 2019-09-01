@@ -1,0 +1,10 @@
+{
+  "name": "using-multiple-entry-points",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}

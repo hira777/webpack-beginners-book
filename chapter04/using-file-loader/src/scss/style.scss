@@ -1,0 +1,30 @@
+@import './variables';
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: url('../images/background.jpg') no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  font-size: 15px;
+  color: $white;
+
+  &:before {
+    content: '';
+    background: url('../images/icon.png') no-repeat;
+    background-size: 100%;
+    display: block;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+  }
+}

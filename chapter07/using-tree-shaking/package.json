@@ -1,0 +1,13 @@
+{
+  "name": "using-tree-shaking",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  }
+}
