@@ -1,6 +1,6 @@
 # 『webpack 実践入門』
 
-『webpack 実践入門』のサンプルコード集です。
+[『webpack 実践入門』](https://www.amazon.co.jp/dp/B07X9H8JZZ/)のサンプルコード集です。
 
 ## 3. webpack を利用してみる
 
